@@ -163,7 +163,7 @@ namespace CodingCraftHOMod1Ex2Scaffolding.Controllers
                     // var callbackUrl = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);
                     // await UserManager.SendEmailAsync(user.Id, "Confirm your account", "Please confirm your account by clicking <a href=\"" + callbackUrl + "\">here</a>");
 
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("Indice", "Home");
                 }
                 AddErrors(result);
             }
@@ -356,7 +356,7 @@ namespace CodingCraftHOMod1Ex2Scaffolding.Controllers
         {
             if (User.Identity.IsAuthenticated)
             {
-                return RedirectToAction("Index", "Manage");
+                return RedirectToAction("Indice", "Manage");
             }
 
             if (ModelState.IsValid)
@@ -392,7 +392,7 @@ namespace CodingCraftHOMod1Ex2Scaffolding.Controllers
         public ActionResult LogOff()
         {
             AuthenticationManager.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Indice", "Home");
         }
 
         //
@@ -449,7 +449,7 @@ namespace CodingCraftHOMod1Ex2Scaffolding.Controllers
             {
                 return Redirect(returnUrl);
             }
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Indice", "Home");
         }
 
         internal class ChallengeResult : HttpUnauthorizedResult
