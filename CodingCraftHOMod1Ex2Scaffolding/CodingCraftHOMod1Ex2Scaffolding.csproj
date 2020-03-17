@@ -194,6 +194,8 @@
     <Content Include="Content\css\ink-ie.css" />
     <Content Include="Content\css\ink-min.css" />
     <Content Include="Content\css\ink.css" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\font\fontawesome-webfont.svg" />
     <Content Include="Content\font\generator_config.txt" />
     <Content Include="Content\font\specimen_files\easytabs.js" />
@@ -239,8 +241,10 @@
     <Content Include="Content\font\ubuntumono-r-webfont.svg" />
     <Content Include="Content\font\ubuntumono-ri-demo.html" />
     <Content Include="Content\font\ubuntumono-ri-webfont.svg" />
+    <Content Include="Content\imgs\americanas.jpg" />
     <Content Include="Content\imgs\favicon.ico" />
     <Content Include="Content\imgs\ink-favicon.ico" />
+    <Content Include="Content\imgs\lojas.png" />
     <Content Include="Content\imgs\splash.1024x748.png" />
     <Content Include="Content\imgs\splash.320x460.png" />
     <Content Include="Content\imgs\splash.768x1004.png" />
@@ -250,6 +254,7 @@
     <Content Include="Content\imgs\touch-icon.57.png" />
     <Content Include="Content\imgs\touch-icon.72.png" />
     <Content Include="favicon.ico" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -324,6 +329,11 @@
     <Content Include="Content\font\fontawesome-webfont.ttf" />
     <Content Include="Content\font\fontawesome-webfont.eot" />
     <Content Include="App_Readme\README.md" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
