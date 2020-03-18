@@ -334,6 +334,14 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="CodeTemplates\Scaffolders\Bootstrap\Listar.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Bootstrap\BoostrapViews.ps1" />
+    <Content Include="CodeTemplates\Scaffolders\Bootstrap\Bootstrap.ps1" />
+    <Content Include="CodeTemplates\Scaffolders\Bootstrap\Criar.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Bootstrap\Editar.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Bootstrap\Excluir.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Bootstrap\Detalhes.cs.t4" />
+    <Content Include="CodeTemplates\Scaffolders\Bootstrap\_CriarOuEditar.cs.t4" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -397,6 +405,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="CodeTemplates\Scaffolders\Sapo\" />
+    <Folder Include="CodeTemplates\Scaffolders\Zurb\" />
     <Folder Include="Views\Shared\EditorTemplates\" />
   </ItemGroup>
   <ItemGroup>
